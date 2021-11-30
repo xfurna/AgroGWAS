@@ -29,7 +29,7 @@ import math as m
 import keras.backend as K
 import sklearn
 
-cur="p"
+cur="h"
 IMP_input =  "data/"+cur+".txt"
 
 def indices_to_one_hot(data,nb_classes):
